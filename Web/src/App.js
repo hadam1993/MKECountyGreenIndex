@@ -15,13 +15,14 @@ import { center, defaultFill, defaultOpacity, highGreenIndex, lowGreenIndex, zoo
 import ButtonGroup from './Components/ButtonGroup';
 import DetailLevel, { LevelOptions } from './constants/DetailLevel';
 import ImageModal from './Components/ImageModal';
+import IntroModal from './Components/IntroModal';
 
 class App extends React.Component {
   constructor (props) {
     super(props);
 
     this.state = {
-      isShowing: false,
+      isShowingIntro: false,
       isLoadingData: false,
       detailLevel: DetailLevel.Tract,
       selectedPolygon: null,
@@ -58,6 +59,10 @@ class App extends React.Component {
     const { values } = this.getParsed();
 
     return values;
+  };
+
+  stopShowingIntro = () => {
+    this.setState({ isShowingIntro: false });
   };
 
   toggleSettings = () => {
@@ -130,7 +135,7 @@ class App extends React.Component {
   };
 
   render () {
-    const { settingsAreOpen, fillOpacity, opacity, selectedPolygon, isLoadingData, selectedMarker } = this.state;
+    const { isShowingIntro, settingsAreOpen, fillOpacity, opacity, selectedPolygon, isLoadingData, selectedMarker } = this.state;
 
     return (
       <Sidebar
@@ -205,6 +210,8 @@ class App extends React.Component {
         </LoadingOverlay>
 
         <ImageModal show={!!selectedMarker} selectedMarker={selectedMarker} hide={() => this.setState({ selectedMarker: null })} />
+
+        <IntroModal show={isShowingIntro} hide={this.stopShowingIntro} />
       </Sidebar>
     );
   }

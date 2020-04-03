@@ -14,7 +14,7 @@ const ImageModal = ({ show, selectedMarker, hide }) => {
           <div className="col-md-12">
             <div className="image-modal-c">
               <img className="img-fluid unselectable" src={`https://adamjhonts.blob.core.windows.net/greenindex/Stitched/Non-Filtered/${imageId}.jpg`} />
-              <img className="img-fluid unselectable" src={`https://adamjhonts.blob.core.windows.net/greenindex/Stitched/Filtered/${imageId}.jpg`} style={{ opacity: opacity / 100 }} />
+              <img className="img-fluid unselectable" src={`https://adamjhonts.blob.core.windows.net/greenindexv2/Stitched/${imageId}.jpg`} style={{ opacity: opacity / 100 }} />
             </div>
           </div>
         </div>

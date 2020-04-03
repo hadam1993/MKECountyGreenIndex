@@ -4,8 +4,8 @@ import { Modal, ModalBody, ModalFooter, ModalHeader } from 'reactstrap';
 
 const IntroModal = ({ show, hide }) => {
   return (
-    <Modal isOpen={show} toggle={hide} className="modal-width">
-      <ModalHeader toggle={hide}>Location Details</ModalHeader>
+    <Modal isOpen={show} toggle={hide}>
+      <ModalHeader toggle={hide}>MKE County Green Index</ModalHeader>
       <ModalBody>
         <div className="row">
           <div className="col-md-12">
@@ -13,7 +13,9 @@ const IntroModal = ({ show, hide }) => {
           </div>
         </div>
       </ModalBody>
-      <ModalFooter />
+      <ModalFooter>
+        <button className="btn btn-sm btn-secondary" onClick={hide}>Close</button>
+      </ModalFooter>
     </Modal>
   );
 };
