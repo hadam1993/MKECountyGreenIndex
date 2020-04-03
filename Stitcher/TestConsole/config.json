@@ -1,0 +1,30 @@
+﻿{
+  "inputFolders": [
+    "E:/GreenCity/Input/Filtered/Locations 1 - 4132_filt",
+    "E:/GreenCity/Input/Filtered/Locations 12378 - 16392_filt",
+    "E:/GreenCity/Input/Filtered/Locations 16393-16462_filt",
+    "E:/GreenCity/Input/Filtered/Locations 16463 - 20304_filt",
+    "E:/GreenCity/Input/Filtered/Locations 20305-20548_filt",
+    "E:/GreenCity/Input/Filtered/Locations 20549-24633_filt",
+    "E:/GreenCity/Input/Filtered/Locations 24634-28718_filt",
+    "E:/GreenCity/Input/Filtered/Locations 28719 - 32803_filt",
+    "E:/GreenCity/Input/Filtered/Locations 32804 - 36888_filt",
+    "E:/GreenCity/Input/Filtered/Locations 36889 - 40973_filt",
+    "E:/GreenCity/Input/Filtered/Locations 40974-43404_filt",
+    "E:/GreenCity/Input/Filtered/Locations 4133 - 12378_filt",
+    "E:/GreenCity/Input/Filtered/Locations 43405-45058_filt",
+    "E:/GreenCity/Input/Filtered/locations 45059-47180_filt",
+    "E:/GreenCity/Input/Filtered/Locations 47181-51265_filt",
+    "E:/GreenCity/Input/Filtered/Locations 51266 - 55350_filt",
+    "E:/GreenCity/Input/Filtered/Locations 55351 - 56530_filt",
+    "E:/GreenCity/Input/Filtered/Locations 56531 - 59435_filt",
+    "E:/GreenCity/Input/Filtered/Locations 59436-60590_filt",
+    "E:/GreenCity/Input/Filtered/Locations 60591 - 63520_filt",
+    "E:/GreenCity/Input/Filtered/Locations 63521-67605_filt",
+    "E:/GreenCity/Input/Filtered/Locations 67606-71690_filt",
+    "E:/GreenCity/Input/Filtered/Locations 71691 - 75775_filt",
+    "E:/GreenCity/Input/Filtered/Locations 75776 - 79860_filt",
+    "E:/GreenCity/Input/Filtered/Locations 79861 - 80985_filt"
+  ],
+  "outputFolder":  "E:/GreenCity/Stitched/Filtered/"
+}

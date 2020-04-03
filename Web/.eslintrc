@@ -1,0 +1,19 @@
+{
+  "parser": "babel-eslint",
+  "extends": ["standard", "standard-react"],
+  "rules": {
+    "semi": ["error", "always"],
+    "comma-dangle": ["error", {
+      "arrays": "never",
+      "objects": "always-multiline",
+      "imports": "never",
+      "exports": "never",
+      "functions": "never"
+    }],
+    "react/jsx-handler-names": "off",
+    "react/jsx-fragments": "off",
+    "jsx-quotes": ["error", "prefer-double"],
+    "object-property-newline": "error",
+    "array-bracket-newline": ["error", "consistent"]
+  }
+}
