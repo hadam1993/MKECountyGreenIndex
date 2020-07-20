@@ -8,7 +8,7 @@
     "gradient": "^0.2.0",
     "leaflet": "^1.6.0",
     "leaflet.markercluster": "^1.4.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "prop-types": "^15.7.2",
     "rc-slider": "^8.7.1",
     "react": "^16.12.0",
